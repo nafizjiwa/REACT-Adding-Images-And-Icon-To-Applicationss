@@ -31,19 +31,19 @@
 ### 4. Using URLs from External Sources
 - Use URLs from external sources (e.g., CDNs) as the src attribute.
 
-     function MyComponent() {
-         return <img src="https://example.com/path/to/image.png" alt="Description" />;
-      }
+      function MyComponent() {
+          return <img src="https://example.com/path/to/image.png" alt="Description" />;
+       }
 - Use Case: Images hosted on external servers or CDNs.
 
 ### 5. Using require for Dynamic Paths
 - Use require() to include images dynamically. 
 
-    function MyComponent() {   
-       const imagePath = './path/to/image.png';  
-       const image = require(`${imagePath}`);      
-           return <img src={image} alt="Description" />; 
-    }
+      function MyComponent() {   
+         const imagePath = './path/to/image.png';  
+         const image = require(`${imagePath}`);      
+             return <img src={image} alt="Description" />; 
+      }
 - Use Case: Dynamically generated image paths, though import is preferred.
 
 ### 6. Inline SVGs
