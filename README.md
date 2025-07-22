@@ -11,7 +11,7 @@
 ### 2. Using Public Directory
 - Place the image in the public directory and reference it with an absolute path.
 
-    <img src="/images/myImage.png" alt="Description" />
+      <img src="/images/myImage.png" alt="Description" />
 - Use Case: Images that don’t need processing by Webpack. Large files or those you want to be accessible directly via URL.
 
 ### 3. Dynamic Importing
