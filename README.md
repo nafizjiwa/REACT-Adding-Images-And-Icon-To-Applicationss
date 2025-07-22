@@ -3,9 +3,9 @@
 ### 1. Importing Images in `src` Directory
 - Import the image file into your JavaScript/JSX file and use it as a source for an img tag.
 
-   import myImage from './path/to/image.png';  
+      import myImage from './path/to/image.png';  
 
-   function MyComponent() {   return <img src={myImage} alt="Description" />; }
+      function MyComponent() {   return <img src={myImage} alt="Description" />; }
 - Use Case: Ideal for images processed by Webpack.
 
 ### 2. Using Public Directory
