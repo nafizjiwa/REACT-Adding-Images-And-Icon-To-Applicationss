@@ -17,13 +17,13 @@
 ### 3. Dynamic Importing
 - Use dynamic import() syntax to load images. Conditional or lazy-loading images.
 
-    function MyComponent() {
-      const [image, setImage] = useState(null);     
-            useEffect(() => {     import('./path/to/image.png').then((image) 
-                          => setImage(image.default));  \
-             }, []);      
-       return image ? <img src={image} alt="Description" /> : null;
-    }
+     function MyComponent() {
+       const [image, setImage] = useState(null);     
+             useEffect(() => {     import('./path/to/image.png').then((image) 
+                           => setImage(image.default));  \
+              }, []);      
+        return image ? <img src={image} alt="Description" /> : null;
+     }
 - Use Case: When images are not needed immediately.
 
 ### 4. Using URLs from External Sources
