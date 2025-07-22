@@ -49,20 +49,20 @@
 ### 6. Inline SVGs
 - Import SVG files as React components or include SVG code directly in JSX.
 
-     import { ReactComponent as MyIcon } from './path/to/icon.svg';  
+       import { ReactComponent as MyIcon } from './path/to/icon.svg';  
      
-     function MyComponent() { 
-             return <MyIcon />;
-        }
+       function MyComponent() { 
+               return <MyIcon />;
+         }
 - Ideal for SVGs that you want to manipulate with React props or CSS.
 
 ### 7. Using CSS Background Images
 - Set images as background images in CSS files.
 
-     .my-class {
-          background-image: url('./path/to/image.png');
-            /* other styles */
-      }
+       .my-class {
+            background-image: url('./path/to/image.png');
+              /* other styles */
+        }
 - For decorative images or background images not rendered in HTML.
 
 ### Summary:
