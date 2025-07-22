@@ -39,15 +39,15 @@
 ### 5. Using require for Dynamic Paths
 - Use require() to include images dynamically. 
 
-     function MyComponent() {   
+      function MyComponent() {   
          const imagePath = './path/to/image.png';  
          const image = require(`${imagePath}`);      
              return <img src={image} alt="Description" />; 
-     }
+      }
 - Use Case: Dynamically generated image paths, though import is preferred.
 
 ### 6. Inline SVGs
--Import SVG files as React components or include SVG code directly in JSX.
+- Import SVG files as React components or include SVG code directly in JSX.
 
      import { ReactComponent as MyIcon } from './path/to/icon.svg';  
      
