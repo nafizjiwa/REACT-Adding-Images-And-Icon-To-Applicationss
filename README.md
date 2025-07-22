@@ -90,11 +90,11 @@
 - Install an icon library like FontAwesome or React Icons via npm.
 - Import icons directly as React components, e.g., import { FaBeer } from 'react-icons/fa';.
 - Use them in your components like <FaBeer />.
-##### `Advantages`:
+##### Advantages:
 `Modularity`: Only import and load the icons you need.
 `Customization`: Easily customize size, color, and other properties through props.
 `Smaller Bundle Size`: Tree-shaking ensures only used icons are included.
-##### `Disadvantages`:
+##### Disadvantages:
 `Initial Setup`: Requires additional setup and understanding of the library’s API.
 ### Summary:
 `CSS Classes`: Ideal for quick setups and projects with extensive CSS usage but may lead to larger bundle sizes and global class conflicts.
